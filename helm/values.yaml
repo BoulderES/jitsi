@@ -48,11 +48,11 @@ global:
 
   # Same as above but for storing secrets
   secretEnvs: 
-    JIBRI_RECORDER_PASSWORD: # Required
-    JIBRI_XMPP_PASSWORD: # Required
-    JICOFO_AUTH_PASSWORD: # Required
-    JIGASI_XMPP_PASSWORD: # Required
-    JVB_AUTH_PASSWORD: # Required
+    JIBRI_RECORDER_PASSWORD: password@1234
+    JIBRI_XMPP_PASSWORD: password@1234
+    JICOFO_AUTH_PASSWORD: password@1234
+    JIGASI_XMPP_PASSWORD: password@1234
+    JVB_AUTH_PASSWORD: password@1234
     JVB_STUN_SERVERS: meet-jit-si-turnrelay.jitsi.net:443
 
     # Any env contains secret should be placed here. Check docker repo for more env: https://github.com/jitsi/docker-jitsi-meet
